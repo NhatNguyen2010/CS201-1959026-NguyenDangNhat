@@ -1,0 +1,109 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+
+.container-fluid.topbar {
+  background: lightgray;
+  color: black;
+
+}
+.row ul{
+  display: inline flex;
+  list-style: none;
+}
+
+nav{
+  height:fit-content;
+}
+
+nav img{
+  height:100px;
+}
+img {
+  max-width: 100%;
+}
+
+ .text{
+  display:inline-flex;
+ 
+}
+
+.text a{
+  padding:30px;
+  color: blue !important;
+}
+.banner{
+  height: 70vh;
+  padding: 30px;
+  overflow: hidden;
+}
+.container-card .row{
+  max-width: 100%;
+  text-align: center;
+}
+.container-card img{
+  height: 20vh;
+}
+.container-product .row{
+  max-width: 100%;
+  text-align: center;
+}
+.container-product img{
+  height: 20vh;
+}
+
+.container-insurance .row{
+  max-width: 100%;
+ justify-content: center;
+
+}
+.container-insurance img{
+  height: 10vh;
+  text-align: center;
+}
+.container-insurance .card{
+  align-items: center;
+  background:rgb(11, 181, 211);
+  margin:20px;
+}
+
+.container-post .info{
+ text-align: center;
+}
+.container-post img{
+  height: 30vh;
+}
+.container-manufacturer
+{
+  text-align: center;
+  background-color: magenta;
+  padding-bottom: 30px;
+}
+.container-manufacturer img{
+  height: 30vh;
+  margin-top: 30px;
+
+
+}
+footer{
+  background:lightgray;
+  height: fit-content;
+}
+h1{
+  text-align: center;
+  color:blue
+}
+body{
+  position:absolute
+}
+.input{
+  display: flex;
+}
